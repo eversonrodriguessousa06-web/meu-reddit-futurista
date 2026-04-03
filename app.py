@@ -38,8 +38,8 @@ if 'posts' not in st.session_state:
     st.session_state.posts = [
         {
             "autor": "Admin_Bot",
-            "titulo": "Bem-vindo ao Futuro da Programação",
-            "conteúdo": "Este é o espaço para compartilhar seus projetos mais insanos.",
+            "titulo": "Bem-vindo ao Futuro",
+            "conteúdo": "Este é o espaço para compartilhar seus projetos e ideias mais ambiciosas.",
             "data": "2026-04-03 00:00",
             "votos": 10
         }
@@ -68,7 +68,7 @@ with st.sidebar:
             st.error("Preencha todos os campos, programador.")
 
 # --- CORPO PRINCIPAL ---
-st.title("🌐 DEV_REDDIT // FUTURE_PORTFOLIO")
+st.title("🌐 NEOLINKED // THE FUTURE")
 st.markdown("---")
 
 # Exibição dos Posts
