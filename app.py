@@ -68,7 +68,7 @@ with st.sidebar:
             st.error("Preencha todos os campos, programador.")
 
 # --- CORPO PRINCIPAL ---
-st.title("🌐 NEOLINKED // THE FUTURE")
+st.title("🌐 NEOLINKED")
 st.markdown("---")
 
 # Exibição dos Posts
