@@ -37,7 +37,7 @@ st.markdown("""
 if 'posts' not in st.session_state:
     st.session_state.posts = [
         {
-            "autor": "Admin_Bot",
+            "autor": "eversonrs",
             "titulo": "Bem-vindo ao NEOLINKED!",
             "conteúdo": "Este é o espaço para compartilhar seus projetos e ideias mais ambiciosas.",
             "data": "2026-04-03 00:00",
@@ -47,8 +47,8 @@ if 'posts' not in st.session_state:
 
 # --- SIDEBAR (POSTAR NOVO CONTEÚDO) ---
 with st.sidebar:
-    st.header("⚡ Terminal de Upload")
-    novo_autor = st.text_input("Seu Nickname", placeholder="Ex: CyberDev")
+    st.header("⚡ Compartilhe suas ideias!")
+    novo_autor = st.text_input("Como podemos te chamar?", placeholder="Sugestão de nome: GhostDeveloper")
     novo_titulo = st.text_input("Título do Trabalho")
     novo_conteudo = st.text_area("Descrição/Código", placeholder="O que você desenvolveu?")
     
