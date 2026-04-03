@@ -48,7 +48,7 @@ if 'posts' not in st.session_state:
 # --- SIDEBAR (POSTAR NOVO CONTEÚDO) ---
 with st.sidebar:
     st.header("⚡ Compartilhe suas ideias!")
-    novo_autor = st.text_input("Como podemos te chamar?", placeholder="Sugestão de nome: GhostDeveloper")
+    novo_autor = st.text_input("Como podemos te chamar?", placeholder="Escreva aqui")
     novo_titulo = st.text_input("Título do Trabalho")
     novo_conteudo = st.text_area("Descrição/Código", placeholder="O que você desenvolveu?")
     
