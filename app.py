@@ -38,7 +38,7 @@ if 'posts' not in st.session_state:
     st.session_state.posts = [
         {
             "autor": "Admin_Bot",
-            "titulo": "Bem-vinda meu amor, minha namorada ninda",
+            "titulo": "Bem-vindo ao NEOLINKED!",
             "conteúdo": "Este é o espaço para compartilhar seus projetos e ideias mais ambiciosas.",
             "data": "2026-04-03 00:00",
             "votos": 10
